@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/icream2"
+    tools:context="com.example.piccinog.giuliosicecream.AboutActivity">
+
+    <TextView
+        android:id="@+id/aboutTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="30sp"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/majorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Software Engineering"
+        android:layout_marginEnd="53dp"
+        android:layout_below="@+id/aboutTextView"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/schoolText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/majorText"
+        android:layout_alignStart="@+id/majorText"
+        android:layout_below="@+id/majorText"
+        android:text="Nova Southeastern" />
+
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/schoolText"
+        android:layout_alignStart="@+id/schoolText"
+        android:layout_below="@+id/schoolText"
+        android:text="gp583@nova.edu" />
+
+    <TextView
+        android:id="@+id/siteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/emailText"
+        android:layout_alignStart="@+id/emailText"
+        android:layout_below="@+id/emailText"
+        android:text="giulio.io" />
+</RelativeLayout>

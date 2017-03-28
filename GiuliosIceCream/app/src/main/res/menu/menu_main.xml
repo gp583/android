@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.piccinog.giuliosicecream.MainActivity">
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="101"
+        android:title="@string/activity_about"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_order_history"
+        android:orderInCategory="102"
+        android:title="Order History"
+        app:showAsAction="never" />
+
+</menu>
